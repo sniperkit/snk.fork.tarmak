@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package cluster
 
@@ -10,9 +15,9 @@ import (
 	"golang.org/x/net/context"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	wingv1alpha1 "github.com/jetstack/tarmak/pkg/apis/wing/v1alpha1"
-	"github.com/jetstack/tarmak/pkg/tarmak/interfaces"
-	wingclientv1alpha1 "github.com/jetstack/tarmak/pkg/wing/client/typed/wing/v1alpha1"
+	wingv1alpha1 "github.com/sniperkit/snk.fork.tarmak/pkg/apis/wing/v1alpha1"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/interfaces"
+	wingclientv1alpha1 "github.com/sniperkit/snk.fork.tarmak/pkg/wing/client/typed/wing/v1alpha1"
 )
 
 func (c *Cluster) wingInstanceClient() (wingclientv1alpha1.InstanceInterface, error) {

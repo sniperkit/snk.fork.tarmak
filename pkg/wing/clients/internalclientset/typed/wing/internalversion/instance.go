@@ -1,13 +1,19 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package internalversion
 
 import (
-	wing "github.com/jetstack/tarmak/pkg/apis/wing"
-	scheme "github.com/jetstack/tarmak/pkg/wing/clients/internalclientset/scheme"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
 	rest "k8s.io/client-go/rest"
+
+	wing "github.com/sniperkit/snk.fork.tarmak/pkg/apis/wing"
+	scheme "github.com/sniperkit/snk.fork.tarmak/pkg/wing/clients/internalclientset/scheme"
 )
 
 // InstancesGetter has a method to return a InstanceInterface.

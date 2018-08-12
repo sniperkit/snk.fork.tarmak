@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package puppet
 
@@ -5,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	clusterv1alpha1 "github.com/jetstack/tarmak/pkg/apis/cluster/v1alpha1"
+	clusterv1alpha1 "github.com/sniperkit/snk.fork.tarmak/pkg/apis/cluster/v1alpha1"
 )
 
 func TestOIDCFields(t *testing.T) {

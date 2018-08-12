@@ -1,12 +1,17 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package provider
 
 import (
-	clusterv1alpha1 "github.com/jetstack/tarmak/pkg/apis/cluster/v1alpha1"
-	tarmakv1alpha1 "github.com/jetstack/tarmak/pkg/apis/tarmak/v1alpha1"
-	"github.com/jetstack/tarmak/pkg/tarmak/interfaces"
-	"github.com/jetstack/tarmak/pkg/tarmak/provider/amazon"
-	"github.com/jetstack/tarmak/pkg/tarmak/utils/input"
+	clusterv1alpha1 "github.com/sniperkit/snk.fork.tarmak/pkg/apis/cluster/v1alpha1"
+	tarmakv1alpha1 "github.com/sniperkit/snk.fork.tarmak/pkg/apis/tarmak/v1alpha1"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/interfaces"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/provider/amazon"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/utils/input"
 )
 
 func Init(init interfaces.Initialize) (provider *tarmakv1alpha1.Provider, err error) {

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package initialize
 
@@ -8,16 +13,16 @@ import (
 
 	validation "github.com/go-ozzo/ozzo-validation"
 	"github.com/go-ozzo/ozzo-validation/is"
+	"github.com/hashicorp/go-multierror"
 	"github.com/sirupsen/logrus"
 
-	"github.com/hashicorp/go-multierror"
-	clusterv1alpha1 "github.com/jetstack/tarmak/pkg/apis/cluster/v1alpha1"
-	tarmakv1alpha1 "github.com/jetstack/tarmak/pkg/apis/tarmak/v1alpha1"
-	"github.com/jetstack/tarmak/pkg/tarmak/cluster"
-	"github.com/jetstack/tarmak/pkg/tarmak/environment"
-	"github.com/jetstack/tarmak/pkg/tarmak/interfaces"
-	"github.com/jetstack/tarmak/pkg/tarmak/provider"
-	"github.com/jetstack/tarmak/pkg/tarmak/utils/input"
+	clusterv1alpha1 "github.com/sniperkit/snk.fork.tarmak/pkg/apis/cluster/v1alpha1"
+	tarmakv1alpha1 "github.com/sniperkit/snk.fork.tarmak/pkg/apis/tarmak/v1alpha1"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/cluster"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/environment"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/interfaces"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/provider"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/utils/input"
 )
 
 var _ interfaces.Initialize = &Initialize{}

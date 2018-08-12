@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package install
 
@@ -6,8 +11,8 @@ import (
 	"k8s.io/apimachinery/pkg/apimachinery/registered"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"github.com/jetstack/tarmak/pkg/apis/wing"
-	"github.com/jetstack/tarmak/pkg/apis/wing/v1alpha1"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/apis/wing"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/apis/wing/v1alpha1"
 )
 
 // Install registers the API group and adds types to a scheme

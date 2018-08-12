@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package rpc
 
@@ -9,7 +14,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/jetstack/tarmak/pkg/tarmak/interfaces"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/interfaces"
 )
 
 const (

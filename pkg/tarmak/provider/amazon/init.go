@@ -1,11 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package amazon
 
 import (
 	"fmt"
 
-	tarmakv1alpha1 "github.com/jetstack/tarmak/pkg/apis/tarmak/v1alpha1"
-	"github.com/jetstack/tarmak/pkg/tarmak/utils/input"
+	tarmakv1alpha1 "github.com/sniperkit/snk.fork.tarmak/pkg/apis/tarmak/v1alpha1"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/utils/input"
 )
 
 func Init(in *input.Input, provider *tarmakv1alpha1.Provider) error {

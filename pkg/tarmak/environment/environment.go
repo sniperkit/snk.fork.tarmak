@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package environment
 
@@ -9,6 +14,7 @@ import (
 	"errors"
 	"fmt"
 	"io/ioutil"
+	"net"
 	"os"
 	"path/filepath"
 
@@ -17,15 +23,13 @@ import (
 	"golang.org/x/crypto/ssh"
 	"k8s.io/client-go/rest"
 
-	"net"
-
-	clusterv1alpha1 "github.com/jetstack/tarmak/pkg/apis/cluster/v1alpha1"
-	tarmakv1alpha1 "github.com/jetstack/tarmak/pkg/apis/tarmak/v1alpha1"
-	"github.com/jetstack/tarmak/pkg/tarmak/cluster"
-	"github.com/jetstack/tarmak/pkg/tarmak/interfaces"
-	"github.com/jetstack/tarmak/pkg/tarmak/utils"
-	"github.com/jetstack/tarmak/pkg/tarmak/vault"
-	wingclient "github.com/jetstack/tarmak/pkg/wing/client"
+	clusterv1alpha1 "github.com/sniperkit/snk.fork.tarmak/pkg/apis/cluster/v1alpha1"
+	tarmakv1alpha1 "github.com/sniperkit/snk.fork.tarmak/pkg/apis/tarmak/v1alpha1"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/cluster"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/interfaces"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/utils"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/vault"
+	wingclient "github.com/sniperkit/snk.fork.tarmak/pkg/wing/client"
 )
 
 type Environment struct {

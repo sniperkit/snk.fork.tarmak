@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package vault_test
 
@@ -10,8 +15,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/jetstack/tarmak/pkg/tarmak/interfaces"
-	"github.com/jetstack/tarmak/pkg/tarmak/vault"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/interfaces"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/vault"
 )
 
 type FakeTunnel struct {

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package cmd
 
@@ -9,7 +14,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/jetstack/tarmak/pkg/tarmak"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak"
 )
 
 var clusterImagesListCmd = &cobra.Command{

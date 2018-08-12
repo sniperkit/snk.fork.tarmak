@@ -1,6 +1,0 @@
-fixtures:
-  symlinks:
-    kubernetes_addons: "#{source_dir}"
-    kubernetes: "#{source_dir}/../kubernetes"
-    concat: "#{source_dir}/../concat"
-    stdlib: "#{source_dir}/../stdlib"

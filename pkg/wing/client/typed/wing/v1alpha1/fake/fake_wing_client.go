@@ -1,10 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package fake
 
 import (
-	v1alpha1 "github.com/jetstack/tarmak/pkg/wing/client/typed/wing/v1alpha1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
+
+	v1alpha1 "github.com/sniperkit/snk.fork.tarmak/pkg/wing/client/typed/wing/v1alpha1"
 )
 
 type FakeWingV1alpha1 struct {

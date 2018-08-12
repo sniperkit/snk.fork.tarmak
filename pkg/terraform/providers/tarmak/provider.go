@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package tarmak
 
@@ -8,7 +13,7 @@ import (
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/hashicorp/terraform/terraform"
 
-	"github.com/jetstack/tarmak/pkg/terraform/providers/tarmak/rpc"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/terraform/providers/tarmak/rpc"
 )
 
 // Provider returns a terraform.ResourceProvider.

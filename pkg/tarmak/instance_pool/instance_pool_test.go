@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package instance_pool
 
@@ -7,9 +12,9 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/sirupsen/logrus"
 
-	clusterv1alpha1 "github.com/jetstack/tarmak/pkg/apis/cluster/v1alpha1"
-	"github.com/jetstack/tarmak/pkg/tarmak/mocks"
-	"github.com/jetstack/tarmak/pkg/tarmak/role"
+	clusterv1alpha1 "github.com/sniperkit/snk.fork.tarmak/pkg/apis/cluster/v1alpha1"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/mocks"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/role"
 )
 
 type fakeInstancePool struct {

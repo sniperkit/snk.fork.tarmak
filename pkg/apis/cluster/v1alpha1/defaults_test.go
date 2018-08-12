@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 // Copyright © 2017 The Kubicorn Authors
 //
@@ -15,7 +20,9 @@
 
 package v1alpha1
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestLoggingDefaults(t *testing.T) {
 

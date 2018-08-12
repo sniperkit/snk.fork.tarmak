@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package terraform
 
@@ -15,8 +20,8 @@ import (
 	providertemplate "github.com/terraform-providers/terraform-provider-template/template"
 	providertls "github.com/terraform-providers/terraform-provider-tls/tls"
 
-	providerawstag "github.com/jetstack/tarmak/pkg/terraform/providers/awstag"
-	providertarmak "github.com/jetstack/tarmak/pkg/terraform/providers/tarmak"
+	providerawstag "github.com/sniperkit/snk.fork.tarmak/pkg/terraform/providers/awstag"
+	providertarmak "github.com/sniperkit/snk.fork.tarmak/pkg/terraform/providers/tarmak"
 )
 
 var InternalProviders = map[string]plugin.ProviderFunc{

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package instaceinittime
 
@@ -8,7 +13,7 @@ import (
 
 	"k8s.io/apiserver/pkg/admission"
 
-	"github.com/jetstack/tarmak/pkg/apis/wing"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/apis/wing"
 )
 
 const PluginName = "InstanceInitTime"

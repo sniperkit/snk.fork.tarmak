@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package rpc
 
@@ -6,7 +11,7 @@ import (
 
 	"github.com/jetstack/vault-helper/pkg/kubernetes"
 
-	cluster "github.com/jetstack/tarmak/pkg/apis/cluster/v1alpha1"
+	cluster "github.com/sniperkit/snk.fork.tarmak/pkg/apis/cluster/v1alpha1"
 )
 
 var (

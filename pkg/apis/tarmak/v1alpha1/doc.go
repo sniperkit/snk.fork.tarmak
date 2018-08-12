@@ -1,6 +1,11 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 // +k8s:deepcopy-gen=package,register
-// +k8s:conversion-gen=github.com/jetstack/tarmak/pkg/apis/tarmak
+// +k8s:conversion-gen=github.com/sniperkit/snk.fork.tarmak/pkg/apis/tarmak
 // +k8s:openapi-gen=true
 // +k8s:defaulter-gen=TypeMeta
 

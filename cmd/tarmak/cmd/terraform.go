@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package cmd
 
@@ -7,7 +12,7 @@ import (
 	"github.com/hashicorp/go-plugin"
 	"github.com/spf13/cobra"
 
-	"github.com/jetstack/tarmak/pkg/terraform"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/terraform"
 )
 
 // ensure plugin clients get closed after subcommand run

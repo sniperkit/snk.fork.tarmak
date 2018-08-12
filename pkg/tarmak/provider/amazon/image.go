@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package amazon
 
@@ -8,7 +13,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/ec2"
 
-	tarmakv1alpha1 "github.com/jetstack/tarmak/pkg/apis/tarmak/v1alpha1"
+	tarmakv1alpha1 "github.com/sniperkit/snk.fork.tarmak/pkg/apis/tarmak/v1alpha1"
 )
 
 func (a *Amazon) QueryImages(tags map[string]string) (images []tarmakv1alpha1.Image, err error) {

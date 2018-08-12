@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package tarmak
 
@@ -12,16 +17,16 @@ import (
 	"github.com/mitchellh/go-homedir"
 	"github.com/sirupsen/logrus"
 
-	tarmakv1alpha1 "github.com/jetstack/tarmak/pkg/apis/tarmak/v1alpha1"
-	"github.com/jetstack/tarmak/pkg/packer"
-	"github.com/jetstack/tarmak/pkg/puppet"
-	"github.com/jetstack/tarmak/pkg/tarmak/assets"
-	"github.com/jetstack/tarmak/pkg/tarmak/config"
-	"github.com/jetstack/tarmak/pkg/tarmak/initialize"
-	"github.com/jetstack/tarmak/pkg/tarmak/interfaces"
-	"github.com/jetstack/tarmak/pkg/tarmak/kubectl"
-	"github.com/jetstack/tarmak/pkg/tarmak/ssh"
-	"github.com/jetstack/tarmak/pkg/terraform"
+	tarmakv1alpha1 "github.com/sniperkit/snk.fork.tarmak/pkg/apis/tarmak/v1alpha1"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/packer"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/puppet"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/assets"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/config"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/initialize"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/interfaces"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/kubectl"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/ssh"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/terraform"
 )
 
 type Tarmak struct {

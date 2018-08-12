@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 
 package server
@@ -12,12 +17,12 @@ import (
 	genericapiserver "k8s.io/apiserver/pkg/server"
 	genericoptions "k8s.io/apiserver/pkg/server/options"
 
-	"github.com/jetstack/tarmak/pkg/apis/wing/v1alpha1"
-	"github.com/jetstack/tarmak/pkg/wing/admission/plugin/instanceinittime"
-	"github.com/jetstack/tarmak/pkg/wing/admission/winginitializer"
-	"github.com/jetstack/tarmak/pkg/wing/apiserver"
-	clientset "github.com/jetstack/tarmak/pkg/wing/clients/internalclientset"
-	informers "github.com/jetstack/tarmak/pkg/wing/informers/internalversion"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/apis/wing/v1alpha1"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/wing/admission/plugin/instanceinittime"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/wing/admission/winginitializer"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/wing/apiserver"
+	clientset "github.com/sniperkit/snk.fork.tarmak/pkg/wing/clients/internalclientset"
+	informers "github.com/sniperkit/snk.fork.tarmak/pkg/wing/informers/internalversion"
 )
 
 const defaultEtcdPathPrefix = "/registry/wing.tarmak.io"

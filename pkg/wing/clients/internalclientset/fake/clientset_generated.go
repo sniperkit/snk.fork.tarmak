@@ -1,15 +1,21 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package fake
 
 import (
-	clientset "github.com/jetstack/tarmak/pkg/wing/clients/internalclientset"
-	winginternalversion "github.com/jetstack/tarmak/pkg/wing/clients/internalclientset/typed/wing/internalversion"
-	fakewinginternalversion "github.com/jetstack/tarmak/pkg/wing/clients/internalclientset/typed/wing/internalversion/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"
 	fakediscovery "k8s.io/client-go/discovery/fake"
 	"k8s.io/client-go/testing"
+
+	clientset "github.com/sniperkit/snk.fork.tarmak/pkg/wing/clients/internalclientset"
+	winginternalversion "github.com/sniperkit/snk.fork.tarmak/pkg/wing/clients/internalclientset/typed/wing/internalversion"
+	fakewinginternalversion "github.com/sniperkit/snk.fork.tarmak/pkg/wing/clients/internalclientset/typed/wing/internalversion/fake"
 )
 
 // NewSimpleClientset returns a clientset that will respond with the provided objects.

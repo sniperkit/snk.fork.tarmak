@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package instance_pool
 
@@ -7,8 +12,8 @@ import (
 	"github.com/golang/mock/gomock"
 	"k8s.io/apimachinery/pkg/api/resource"
 
-	clusterv1alpha1 "github.com/jetstack/tarmak/pkg/apis/cluster/v1alpha1"
-	"github.com/jetstack/tarmak/pkg/tarmak/mocks"
+	clusterv1alpha1 "github.com/sniperkit/snk.fork.tarmak/pkg/apis/cluster/v1alpha1"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/mocks"
 )
 
 type fakeVolume struct {

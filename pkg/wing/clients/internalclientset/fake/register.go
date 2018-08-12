@@ -1,12 +1,18 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package fake
 
 import (
-	winginternalversion "github.com/jetstack/tarmak/pkg/apis/wing"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
+
+	winginternalversion "github.com/sniperkit/snk.fork.tarmak/pkg/apis/wing"
 )
 
 var scheme = runtime.NewScheme()

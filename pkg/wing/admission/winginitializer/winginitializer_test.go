@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package winginitializer_test
 
@@ -5,10 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jetstack/tarmak/pkg/wing/admission/winginitializer"
-	"github.com/jetstack/tarmak/pkg/wing/clients/internalclientset/fake"
-	informers "github.com/jetstack/tarmak/pkg/wing/informers/internalversion"
 	"k8s.io/apiserver/pkg/admission"
+
+	"github.com/sniperkit/snk.fork.tarmak/pkg/wing/admission/winginitializer"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/wing/clients/internalclientset/fake"
+	informers "github.com/sniperkit/snk.fork.tarmak/pkg/wing/informers/internalversion"
 )
 
 // TestWantsInternalWingInformerFactory ensures that the informer factory is injected

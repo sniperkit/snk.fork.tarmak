@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package amazon
 
@@ -5,8 +10,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/jetstack/tarmak/pkg/tarmak/cluster/firewall"
-	"github.com/jetstack/tarmak/pkg/tarmak/role"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/cluster/firewall"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/role"
 )
 
 const masterELB = "master_elb"

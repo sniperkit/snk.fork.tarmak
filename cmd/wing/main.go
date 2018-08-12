@@ -1,8 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package main
 
 import (
-	"github.com/jetstack/tarmak/cmd/wing/cmd"
+	"github.com/sniperkit/snk.fork.tarmak/cmd/wing/cmd"
 )
 
 var (

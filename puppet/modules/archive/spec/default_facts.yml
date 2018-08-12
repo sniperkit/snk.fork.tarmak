@@ -1,3 +1,6 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 ---
 concat_basedir: "/tmp"
 ipaddress: "172.16.254.254"

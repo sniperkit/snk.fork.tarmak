@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package wing
 
@@ -23,9 +28,9 @@ import (
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/jetstack/tarmak/pkg/apis/wing/v1alpha1"
-	"github.com/jetstack/tarmak/pkg/wing/provider/file"
-	"github.com/jetstack/tarmak/pkg/wing/provider/s3"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/apis/wing/v1alpha1"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/wing/provider/file"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/wing/provider/s3"
 )
 
 // This make sure puppet is converged when neccessary

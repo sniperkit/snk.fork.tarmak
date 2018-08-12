@@ -1,15 +1,22 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package scheme
 
 import (
-	wing "github.com/jetstack/tarmak/pkg/apis/wing/install"
+	os "os"
+
 	announced "k8s.io/apimachinery/pkg/apimachinery/announced"
 	registered "k8s.io/apimachinery/pkg/apimachinery/registered"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
-	os "os"
+
+	wing "github.com/sniperkit/snk.fork.tarmak/pkg/apis/wing/install"
 )
 
 var Scheme = runtime.NewScheme()

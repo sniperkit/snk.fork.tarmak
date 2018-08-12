@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package cmd
 
@@ -6,7 +11,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/jetstack/tarmak/pkg/wing"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/wing"
 )
 
 var agentFlags = &wing.Flags{}

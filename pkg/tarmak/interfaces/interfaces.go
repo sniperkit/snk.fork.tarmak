@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package interfaces
 
@@ -9,11 +14,11 @@ import (
 	"github.com/jetstack/vault-unsealer/pkg/kv"
 	"github.com/sirupsen/logrus"
 
-	clusterv1alpha1 "github.com/jetstack/tarmak/pkg/apis/cluster/v1alpha1"
-	tarmakv1alpha1 "github.com/jetstack/tarmak/pkg/apis/tarmak/v1alpha1"
-	"github.com/jetstack/tarmak/pkg/tarmak/role"
-	"github.com/jetstack/tarmak/pkg/tarmak/utils/input"
-	wingclient "github.com/jetstack/tarmak/pkg/wing/client"
+	clusterv1alpha1 "github.com/sniperkit/snk.fork.tarmak/pkg/apis/cluster/v1alpha1"
+	tarmakv1alpha1 "github.com/sniperkit/snk.fork.tarmak/pkg/apis/tarmak/v1alpha1"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/role"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/utils/input"
+	wingclient "github.com/sniperkit/snk.fork.tarmak/pkg/wing/client"
 )
 
 type Cluster interface {

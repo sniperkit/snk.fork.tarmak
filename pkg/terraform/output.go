@@ -1,14 +1,18 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 
 package terraform
 
 import (
 	"bytes"
+	"encoding/json"
 	"fmt"
 
-	"encoding/json"
-
-	"github.com/jetstack/tarmak/pkg/tarmak/interfaces"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/interfaces"
 )
 
 type terraformOutputValue struct {

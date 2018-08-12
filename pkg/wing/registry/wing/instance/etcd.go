@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package instance
 
@@ -6,8 +11,8 @@ import (
 	"k8s.io/apiserver/pkg/registry/generic"
 	genericregistry "k8s.io/apiserver/pkg/registry/generic/registry"
 
-	"github.com/jetstack/tarmak/pkg/apis/wing"
-	"github.com/jetstack/tarmak/pkg/wing/registry"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/apis/wing"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/wing/registry"
 )
 
 // NewREST returns a RESTStorage object that will work against API services.

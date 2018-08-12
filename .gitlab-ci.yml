@@ -1,3 +1,6 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 # run test on golang code
 #
 test::tarmak::golang:
@@ -9,9 +12,9 @@ test::tarmak::golang:
   - rm -rf /go/src/github.com/jetstack
   - mkdir -p /go/src/github.com/jetstack
   - mv ${CI_PROJECT_DIR} /go/src/github.com/jetstack
-  - cd /go/src/github.com/jetstack/tarmak
+  - cd /go/src/github.com/sniperkit/snk.fork.tarmak
   - make all
-  - mv /go/src/github.com/jetstack/tarmak ${CI_PROJECT_DIR}
+  - mv /go/src/github.com/sniperkit/snk.fork.tarmak ${CI_PROJECT_DIR}
 
 # generate sphinx documentation
 generate::docs:
@@ -57,10 +60,10 @@ release::tarmak::golang:
   - rm -rf /go/src/github.com/jetstack
   - mkdir -p /go/src/github.com/jetstack
   - mv ${CI_PROJECT_DIR} /go/src/github.com/jetstack
-  - cd /go/src/github.com/jetstack/tarmak
+  - cd /go/src/github.com/sniperkit/snk.fork.tarmak
   - make all
-  - export PATH="/go/src/github.com/jetstack/tarmak/bin:${PATH}" && goreleaser
-  - mv /go/src/github.com/jetstack/tarmak ${CI_PROJECT_DIR}
+  - export PATH="/go/src/github.com/sniperkit/snk.fork.tarmak/bin:${PATH}" && goreleaser
+  - mv /go/src/github.com/sniperkit/snk.fork.tarmak ${CI_PROJECT_DIR}
 
 stages:
 - test

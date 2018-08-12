@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package cluster
 
@@ -10,11 +15,11 @@ import (
 	"github.com/sirupsen/logrus"
 	"k8s.io/apimachinery/pkg/util/sets"
 
-	clusterv1alpha1 "github.com/jetstack/tarmak/pkg/apis/cluster/v1alpha1"
-	"github.com/jetstack/tarmak/pkg/tarmak/instance_pool"
-	"github.com/jetstack/tarmak/pkg/tarmak/interfaces"
-	"github.com/jetstack/tarmak/pkg/tarmak/role"
-	wingclient "github.com/jetstack/tarmak/pkg/wing/client"
+	clusterv1alpha1 "github.com/sniperkit/snk.fork.tarmak/pkg/apis/cluster/v1alpha1"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/instance_pool"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/interfaces"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/role"
+	wingclient "github.com/sniperkit/snk.fork.tarmak/pkg/wing/client"
 )
 
 const (

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package environment
 
@@ -9,14 +14,12 @@ import (
 	"path/filepath"
 	"strings"
 	"testing"
-
 	"github.com/sirupsen/logrus"
 	"github.com/golang/mock/gomock"
 	"golang.org/x/crypto/ssh"
-
-	"github.com/jetstack/tarmak/pkg/tarmak/config"
-	"github.com/jetstack/tarmak/pkg/tarmak/mocks"
-	"github.com/jetstack/tarmak/pkg/tarmak/utils"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/config"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/mocks"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/utils"
 )
 
 var fakeSSHKeyInsecurePrivate = `-----BEGIN RSA PRIVATE KEY-----

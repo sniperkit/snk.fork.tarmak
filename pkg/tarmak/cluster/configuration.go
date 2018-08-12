@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package cluster
 
@@ -6,7 +11,7 @@ import (
 	"fmt"
 	"time"
 
-	wingv1alpha1 "github.com/jetstack/tarmak/pkg/apis/wing/v1alpha1"
+	wingv1alpha1 "github.com/sniperkit/snk.fork.tarmak/pkg/apis/wing/v1alpha1"
 )
 
 const (

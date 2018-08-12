@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package cmd
 
@@ -9,7 +14,7 @@ import (
 	genericapiserver "k8s.io/apiserver/pkg/server"
 	"k8s.io/apiserver/pkg/util/logs"
 
-	"github.com/jetstack/tarmak/pkg/wing/server"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/wing/server"
 )
 
 func init() {

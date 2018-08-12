@@ -1,3 +1,6 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 fixtures:
   symlinks:
     fluent_bit: "#{source_dir}"

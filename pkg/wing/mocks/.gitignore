@@ -1,3 +1,6 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 client.go
 http_client.go
 command.go

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package input_test
 
@@ -7,7 +12,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/jetstack/tarmak/pkg/tarmak/utils/input"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/utils/input"
 )
 
 func Test_Input_AskYesNo_Yes(t *testing.T) {

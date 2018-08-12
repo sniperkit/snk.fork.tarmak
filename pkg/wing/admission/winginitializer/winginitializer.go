@@ -1,10 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 
 package winginitializer
 
 import (
-	informers "github.com/jetstack/tarmak/pkg/wing/informers/internalversion"
 	"k8s.io/apiserver/pkg/admission"
+
+	informers "github.com/sniperkit/snk.fork.tarmak/pkg/wing/informers/internalversion"
 )
 
 type pluginInitializer struct {

@@ -1,9 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package internalversion
 
 import (
-	"github.com/jetstack/tarmak/pkg/wing/clients/internalclientset/scheme"
 	rest "k8s.io/client-go/rest"
+
+	"github.com/sniperkit/snk.fork.tarmak/pkg/wing/clients/internalclientset/scheme"
 )
 
 type WingInterface interface {

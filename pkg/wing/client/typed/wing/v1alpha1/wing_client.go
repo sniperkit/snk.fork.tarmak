@@ -1,11 +1,17 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package v1alpha1
 
 import (
-	v1alpha1 "github.com/jetstack/tarmak/pkg/apis/wing/v1alpha1"
-	"github.com/jetstack/tarmak/pkg/wing/client/scheme"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
 	rest "k8s.io/client-go/rest"
+
+	v1alpha1 "github.com/sniperkit/snk.fork.tarmak/pkg/apis/wing/v1alpha1"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/wing/client/scheme"
 )
 
 type WingV1alpha1Interface interface {

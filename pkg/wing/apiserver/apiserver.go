@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 
 package apiserver
@@ -13,11 +18,11 @@ import (
 	"k8s.io/apiserver/pkg/registry/rest"
 	genericapiserver "k8s.io/apiserver/pkg/server"
 
-	"github.com/jetstack/tarmak/pkg/apis/wing"
-	"github.com/jetstack/tarmak/pkg/apis/wing/install"
-	"github.com/jetstack/tarmak/pkg/apis/wing/v1alpha1"
-	wingregistry "github.com/jetstack/tarmak/pkg/wing/registry"
-	instancestorage "github.com/jetstack/tarmak/pkg/wing/registry/wing/instance"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/apis/wing"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/apis/wing/install"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/apis/wing/v1alpha1"
+	wingregistry "github.com/sniperkit/snk.fork.tarmak/pkg/wing/registry"
+	instancestorage "github.com/sniperkit/snk.fork.tarmak/pkg/wing/registry/wing/instance"
 )
 
 var (

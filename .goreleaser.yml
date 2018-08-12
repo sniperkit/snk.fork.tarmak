@@ -1,3 +1,6 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 builds:
   - main: ./cmd/wing
     binary: wing

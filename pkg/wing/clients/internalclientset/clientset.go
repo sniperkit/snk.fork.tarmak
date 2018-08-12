@@ -1,12 +1,18 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package internalclientset
 
 import (
 	glog "github.com/golang/glog"
-	winginternalversion "github.com/jetstack/tarmak/pkg/wing/clients/internalclientset/typed/wing/internalversion"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"
+
+	winginternalversion "github.com/sniperkit/snk.fork.tarmak/pkg/wing/clients/internalclientset/typed/wing/internalversion"
 )
 
 type Interface interface {

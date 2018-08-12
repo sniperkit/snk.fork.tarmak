@@ -1,11 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package tarmak
 
 import (
 	"fmt"
 
-	"github.com/jetstack/tarmak/pkg/tarmak/environment"
-	"github.com/jetstack/tarmak/pkg/tarmak/interfaces"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/environment"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/interfaces"
 )
 
 func (t *Tarmak) EnvironmentByName(environmentName string) (interfaces.Environment, error) {

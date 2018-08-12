@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package vault
 
@@ -9,7 +14,7 @@ import (
 	cleanhttp "github.com/hashicorp/go-cleanhttp"
 	vault "github.com/hashicorp/vault/api"
 
-	"github.com/jetstack/tarmak/pkg/tarmak/interfaces"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/interfaces"
 )
 
 type vaultTunnel struct {

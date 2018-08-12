@@ -1,3 +1,6 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 fixtures:
   symlinks:
     aws_es_proxy: "#{source_dir}"

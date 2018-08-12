@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package tarmak
 
@@ -8,7 +13,7 @@ import (
 
 	"github.com/hashicorp/terraform/helper/schema"
 
-	tarmakRPC "github.com/jetstack/tarmak/pkg/terraform/providers/tarmak/rpc"
+	tarmakRPC "github.com/sniperkit/snk.fork.tarmak/pkg/terraform/providers/tarmak/rpc"
 )
 
 func resourceTarmakVaultInstanceRole() *schema.Resource {

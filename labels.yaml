@@ -1,5 +1,8 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 ---
-repo: jetstack/tarmak
+repo: sniperkit/snk.fork.tarmak
 labels:
 - name: approved
   color: 0ffa16

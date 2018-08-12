@@ -1,3 +1,6 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 version: 1.1.x.{build}
 skip_commits:
   message: /^\(?doc\)?.*/

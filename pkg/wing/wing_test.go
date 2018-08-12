@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package wing
 
@@ -20,8 +25,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/rest"
 
-	"github.com/jetstack/tarmak/pkg/wing/client"
-	"github.com/jetstack/tarmak/pkg/wing/mocks"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/wing/client"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/wing/mocks"
 )
 
 var manifestURL, manifestURLgz string

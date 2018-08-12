@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright Jetstack Ltd. See LICENSE for details.
 package terraform
 
@@ -18,9 +23,9 @@ import (
 	"github.com/kardianos/osext"
 	"github.com/sirupsen/logrus"
 
-	"github.com/jetstack/tarmak/pkg/tarmak/interfaces"
-	"github.com/jetstack/tarmak/pkg/tarmak/utils"
-	"github.com/jetstack/tarmak/pkg/terraform/providers/tarmak/rpc"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/interfaces"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/tarmak/utils"
+	"github.com/sniperkit/snk.fork.tarmak/pkg/terraform/providers/tarmak/rpc"
 )
 
 const debugShell = "debug-shell"

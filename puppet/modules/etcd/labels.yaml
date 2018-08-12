@@ -1,3 +1,6 @@
+# Sniperkit-Bot
+# - Status: analyzed
+
 ---
 repo: jetstack/puppet-module-etcd
 labels:
